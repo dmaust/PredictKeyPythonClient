@@ -4,6 +4,8 @@ Example Python Client for PredictKey.
 
 Endpoint: http://api.predictkey.com/predict
 
+For test purposes use of the "demo" api key is permitted. For production, please contact me at david@mau.st for production keys.
+
 Example POST:
 
     {
