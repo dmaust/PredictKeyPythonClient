@@ -9,9 +9,11 @@ def get_prediction(text):
         "text":text,
         "apikey": "demo"
     }
-    response = requests.post("http://demo.predictkey.com/predict", json=post_data)
+    response = requests.post("http://api.predictkey.com/predict", json=post_data)
     return response.json()
 
 if __name__=="__main__":
     pred = get_prediction("I enjoy writing to APIs with my favorite programming")
+    print "Top Prediction:", pred['results'][0]['word']
+    print "Full output"
     pprint(pred)
