@@ -1,6 +1,7 @@
 Predictions for: I enjoy writing to APIs with my favorite programming
+Partial words: disabled
 Top Prediction: language
-Full output
+Full output:
 {u'results': [{u'prior': 0.029820925343313532,
                u'score': -0.412448590953965,
                u'word': u'language'},
@@ -151,21 +152,26 @@ Full output
               {u'prior': 0.0029820925343313296,
                u'score': -1.4116524277644,
                u'word': u'said'}]}
+
 Predictions for: Have a good d
+Partial words: enabled
 Top Prediction: day
-Full output
+Full output:
 {u'results': [{u'prior': 0.01774048879610734,
                u'score': -0.877713532727458,
                u'word': u'day'},
               {u'prior': 0.0029879314782833553,
                u'score': -1.10620656929232,
                u'word': u'deal'}]}
+
 Predictions for: Have a good n
+Partial words: enabled
 Top Prediction: night
-Full output
+Full output:
 {u'results': [{u'prior': 0.014911308895417833,
                u'score': -0.695826351351498,
                u'word': u'night'},
               {u'prior': 0.015563324303392358,
                u'score': -1.35694406597709,
                u'word': u'news'}]}
+
